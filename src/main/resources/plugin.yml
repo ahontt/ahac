@@ -1,0 +1,6 @@
+name: ahac
+version: '1.0-SNAPSHOT'
+main: org.ahont.ahac.Ahac
+api-version: '1.21'
+authors: [ahontt]
+description: Minecraft 1.12.10 AntiCheat
