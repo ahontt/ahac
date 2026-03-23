@@ -51,6 +51,14 @@
   </build>
 
   <repositories>
+    <repository>
+      <id>codemc-releases</id>
+      <url>https://repo.codemc.io/repository/maven-releases/</url>
+    </repository>
+    <repository>
+      <id>codemc-snapshots</id>
+      <url>https://repo.codemc.io/repository/maven-snapshots/</url>
+    </repository>
       <repository>
         <id>spigotmc-repo</id>
         <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -62,6 +70,12 @@
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
       <version>1.21.10-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.retrooper</groupId>
+      <artifactId>packetevents-spigot</artifactId>
+      <version>2.11.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
