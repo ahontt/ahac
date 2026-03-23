@@ -10,6 +10,10 @@ import org.ahont.ahac.listeners.JoinLeaveListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Clase principal de nuestro sistema anti-trampas
+ * Contiene los inicializadores y destructores del sistema.
+ */
 public final class Ahac extends JavaPlugin {
 
     public static Ahac instance;

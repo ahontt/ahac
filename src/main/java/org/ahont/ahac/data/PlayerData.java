@@ -8,6 +8,8 @@ import org.bukkit.entity.Player;
 public class PlayerData {
     public Player player;
 
+    public int timesFlagged = 0;
+
     public PlayerData(Player p) {
         this.player = p;
     }
@@ -19,4 +21,8 @@ public class PlayerData {
 
     public long lastFlying;
     public int killAuraAVerbose;
+
+    /*
+    Metodos usados para gestionar el usuario
+     */
 }

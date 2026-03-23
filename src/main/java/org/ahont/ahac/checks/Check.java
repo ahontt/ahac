@@ -1,6 +1,7 @@
 package org.ahont.ahac.checks;
 
 import net.md_5.bungee.api.ChatColor;
+import org.ahont.ahac.Ahac;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -20,7 +21,7 @@ public abstract class Check {
                     ChatColor.DARK_AQUA + t.getName()
                             + ChatColor.GRAY + " ha fallado el check: "
                             + ChatColor.DARK_RED + this.name
-                            + ChatColor.DARK_GREEN + " {" + info + "}"
+                            + ChatColor.DARK_GREEN + " {" + info + "} "
             );
         }
     }
